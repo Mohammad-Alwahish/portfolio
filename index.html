@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!-- Page settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alwahsh | Portfolio</title>
+
+    <!-- Styles and icons -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+
+<body>
+
+    <!-- ========== HEADER AND NAVIGATION ========== -->
+    <header>
+        <nav>
+            <!-- Profile picture, name and status -->
+            <div class="profile">
+                <a href="#profile-photo" class="profile-picture" aria-label="View profile picture">
+                    <img src="image/me.jpg" alt="Mohammad Alwahsh">
+                </a>
+
+                <div class="profile-info">
+                    <h2>Mohammad Alwahsh</h2>
+                    <div class="profile-status">
+                        <span class="status-dot"></span>
+                        <p>Software Developer</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section navigation -->
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house" aria-hidden="true"></i> Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user" aria-hidden="true"></i> About</a></li>
+                <li><a href="#skills"><i class="fa-solid fa-code" aria-hidden="true"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Contact</a></li>
+            </ul>
+
+            
+
+        </nav>
+    </header>
+
+    <!-- ========== PROFILE PHOTO LIGHTBOX ========== -->
+    <!-- Click the profile photo to open; click outside or X to close. -->
+    <div id="profile-photo" class="lightbox">
+        <a href="#" class="lightbox-background" aria-label="Close photo"></a>
+        <div class="lightbox-content">
+            <a href="#" class="close-btn" aria-label="Close photo">&times;</a>
+            <img src="image/me.jpg" alt="Mohammad Alwahsh">
+        </div>
+    </div>
+
+    <main>
+        <!-- ========== HOME ========== -->
+        <section id="home" class="home">
+            <div class="home-text">
+                <h1>Mohammad Alwahsh</h1>
+                <h2>Software Engineering Student</h2>
+                <p>
+                    I am a Software Engineering student who enjoys designing and developing
+                    websites and applications. I am passionate about programming,
+                    problem-solving, and learning new technologies. My goal is to become
+                    a professional software engineer and build creative software solutions.
+                </p>
+
+                <!-- Buttons to other sections -->
+                <div class="home-buttons">
+                    <a href="#projects">View Projects</a>
+                    <a href="#contact">Contact Me</a>
+                </div>
+            </div>
+
+            <!-- Decorative code window (not running JavaScript) -->
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span>●</span><span>●</span><span>●</span>
+                    <p>developer.js</p>
+                </div>
+                <div class="terminal-body">
+                    <p>const developer = {</p>
+                    <p>&nbsp; name: "Mohammad Alwahsh",</p>
+                    <p>&nbsp; field: "Software Engineering",</p>
+                    <p>&nbsp; interests: "Web &amp; App Development",</p>
+                    <p>&nbsp; skills: "Programming &amp; Problem Solving",</p>
+                    <p>&nbsp; goal: "Become a Software Engineer"</p>
+                    <p>};</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ABOUT ME ========== -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-container">
+                <!-- Left photo -->
+                <img src="image/code.jpeg" alt="Programming setup" class="about-image">
+
+                <!-- Personal introduction -->
+                <div class="about-box">
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I'm Mohammad Alwahsh, a Software Engineering student at
+                        Bethlehem University. I'm a true reflection of my name
+                        — Alwahsh (The Beast)!
+                    </p>
+                    <p>
+                        I enjoy developing websites and applications. I love solving
+                        problems, thinking deeply, and finding creative solutions to
+                        difficult challenges. I never give up easily when facing a problem.
+                    </p>
+                    <p>
+                        Besides programming, I absolutely love sleeping — and I mean
+                        A LOT! Sleeping is one of my favorite hobbies, and I could
+                        honestly spend most of my day doing it.
+                    </p>
+                    <p>
+                        My goal is to become a professional software engineer,
+                        build amazing applications, and prove that even a beast
+                        needs plenty of sleep!
+                    </p>
+                </div>
+
+                <!-- Right photo -->
+                <img src="image/sleep.png" alt="Sleep-themed illustration" class="about-image">
+            </div>
+        </section>
+
+        <!-- ========== SKILLS ========== -->
+        <section id="skills" class="section">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-description">Technologies and tools I work with</p>
+
+            <div class="skills-container">
+                <!-- Programming languages and tools -->
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5" aria-hidden="true"></i>
+                    <h3>HTML</h3>
+                    <p>Website Structure</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+                    <h3>CSS</h3>
+                    <p>Website Styling</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-java" aria-hidden="true"></i>
+                    <h3>Java</h3>
+                    <p>Application Development</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-code" aria-hidden="true"></i>
+                    <h3>C++</h3>
+                    <p>Problem Solving</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database" aria-hidden="true"></i>
+                    <h3>SQL / MySQL</h3>
+                    <p>Database Management</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-desktop" aria-hidden="true"></i>
+                    <h3>JavaFX</h3>
+                    <p>Desktop Applications</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js" aria-hidden="true"></i>
+                    <h3>JavaScript</h3>
+                    <p>Web Interactivity</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-network-wired" aria-hidden="true"></i>
+                    <h3>Cisco Packet Tracer</h3>
+                    <p>Network Simulation</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PROJECTS ========== -->
+        <section id="projects" class="section">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-description">Projects and software concepts</p>
+
+            <div class="projects-container">
+                <!-- Project 1: Sales Management -->
+                <div class="project-card">
+                    <div class="project-image" tabindex="0" aria-label="Preview Sales Management System image">
+                        <img src="image/sales.png" alt="Sales Management System concept illustration">
+                        <div class="project-preview" aria-hidden="true">
+                            <img src="image/sales.png" alt="">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sales Management System</h3>
+                        <p>A JavaFX desktop application concept for managing clothing products, sales, and inventory.
+                        </p>
+                        <span>Java | JavaFX</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: Website -->
+                <div class="project-card">
+                    <div class="project-image" tabindex="0" aria-label="Preview Website Project image">
+                        <img src="image/website.png" alt="Website Project concept illustration">
+                        <div class="project-preview" aria-hidden="true">
+                            <img src="image/website.png" alt="">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Website Project</h3>
+                        <p>A responsive website concept using HTML and CSS, with a modern design, organized content, and
+                            easy navigation.</p>
+                        <span>HTML | CSS</span>
+                    </div>
+                </div>
+
+                <!-- Project 3: Database -->
+                <div class="project-card">
+                    <div class="project-image" tabindex="0" aria-label="Preview Database Management Project image">
+                        <img src="image/database.png" alt="Database Management Project concept illustration">
+                        <div class="project-preview" aria-hidden="true">
+                            <img src="image/database.png" alt="">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Database Management Project</h3>
+                        <p>A MySQL database concept for organizing information using tables and retrieving data through
+                            SQL queries.</p>
+                        <span>SQL | MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CONTACT ========== -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-description">Have a question or project idea? Let's connect!</p>
+
+            <div class="contact-container">
+                <!-- Email -->
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    <h3>Email</h3>
+                    <p>Get in touch by email</p>
+                    <a href="mailto:202405125@bethlehem.edu">Send Email</a>
+                </div>
+
+                <!-- GitHub -->
+                <div class="contact-card">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <h3>GitHub</h3>
+                    <p>Explore my code and projects</p>
+                    <a href="https://github.com/Mohammad-Alwahish" target="_blank" rel="noopener noreferrer">Visit
+                        GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <p>© 2026 Mohammad Alwahsh. All Rights Reserved.</p>
+        <p>Built with HTML &amp; CSS</p>
+    </footer>
+</body>
+
+</html>
